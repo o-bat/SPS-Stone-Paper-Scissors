@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/my-style.css">
+    <script src="js/index.js"></script>
+    <title>SPS (Stone Paper Scissors)</title>
+</head>
+
+<body>
+    <div>
+        <table class="table">
+            <tbody>
+                <thead>
+                    <td>
+                        <center>
+                            Player
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <h5 id='Score-text'></h5>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            Computer
+                        </center>
+                    </td>
+                </thead>
+                <tr>
+                    <td>
+                        <center>
+                            <div>
+                                <img id="P-h1" src="https://img.icons8.com/color/48/000000/like--v3.png" />
+                                <img id="P-h2" src="https://img.icons8.com/color/48/000000/like--v3.png" />
+                                <img id="P-h3" src="https://img.icons8.com/color/48/000000/like--v3.png" />
+                            </div>
+                        </center>
+                    </td>
+                    <td></td>
+                    <td>
+                        <center>
+                            <div>
+                                <img id="C-h1" src="https://img.icons8.com/color/48/000000/like--v3.png" />
+                                <img id="C-h2" src="https://img.icons8.com/color/48/000000/like--v3.png" />
+                                <img id="C-h3" src="https://img.icons8.com/color/48/000000/like--v3.png" />
+                            </div>
+                        </center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+
+        <div class="container top">
+            <div class="row">
+              <div class="col">
+                <center>
+                    Player select
+                </center>
+              </div>
+              <div class="col">
+                <center>
+                    Computer select
+                </center>
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <center>
+                    <img id="P-Selected-Image" src="" />
+                </center>
+              </div>
+              <div class="col">
+                <center>
+                    <img id="C-Selected-Image" src="" />
+                </center>
+              </div>
+            </div>
+          </div>
+
+    <div>
+        <table class="table fixed-bottom">
+            <tbody>
+                <thead>
+                    <td>
+
+                    </td>
+                    <td>
+                        <center>
+                            Select Stone Paper or Scissors
+                        </center>
+                    </td>
+                    <td>
+                        
+                    </td>
+                </thead>
+                <tr>
+                    <td>
+                        <center>
+                            <div>
+                                <button id="btn-Stone" onclick="setStone()" class="rounded">
+                                    <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/100/000000/external-stone-nature-resource-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" />
+                                </button>
+                            </div>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <div>
+                                <button id="btn-Paper" onclick="setPaper()" class="rounded">
+                                    <img src="https://img.icons8.com/color/100/000000/paper.png" />
+                                </button>
+                            </div>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <div>
+                                <button id="btn-Scissors" onclick="setScissors()" class="rounded">
+                                    <img src="https://img.icons8.com/color/100/000000/scissors.png" />
+                                </button>
+                            </div>
+                        </center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
