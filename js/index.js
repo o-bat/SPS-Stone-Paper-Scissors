@@ -49,19 +49,19 @@ function setScissors() {
 function setComputer() {
     while (true) {
         var image = Math.floor(Math.random() * 10 / 3)
-        if (image == 0) {
+        if (image == 1) {
 
         } else {
             break;
         }
     }
     switch (image) {
-        case 1:
-            document.getElementById('C-Selected-Image').src='https://img.icons8.com/color/77/000000/scissors.png'
-            console.log('1')
+        case 0:
+            document.getElementById('C-Selected-Image').src='https://img.icons8.com/color/77/000000/paper.png'
+            console.log('0')
             break;
         case 2:
-            document.getElementById('C-Selected-Image').src='https://img.icons8.com/color/77/000000/paper.png'
+            document.getElementById('C-Selected-Image').src='https://img.icons8.com/color/77/000000/scissors.png'
             console.log('2')
             break;
         case 3:
