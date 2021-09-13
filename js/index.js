@@ -13,7 +13,7 @@ function setStone() {
         Control()
         setTimeout(function () {
             Reset()
-        }, 770);
+        }, 1000);
     }, 2000);
 
 }
@@ -27,7 +27,7 @@ function setPaper() {
         Control()
         setTimeout(function () {
             Reset()
-        }, 770);
+        }, 1000);
     }, 2000);
 
 }
@@ -41,7 +41,7 @@ function setScissors() {
         Control()
         setTimeout(function () {
             Reset()
-        }, 770);
+        }, 1000);
     }, 2000);
 }
 
